@@ -20,7 +20,7 @@ import MyInput from "./MyInput";
 // };
 //////////////////////////////////////////////////////////////////////////
 
-// const root = ReactDOM.createRoot(document.getElementById("root"));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 
 // root
 //   .render(
@@ -164,10 +164,10 @@ import MyInput from "./MyInput";
 // root.render(<MyInput />);
 //////////////////////////////////////////////////////////////////////////////////////////////
 
-const element = (
-  <div style={{ fontsize: "15px" }}>Green is the prime color of the world</div>
-);
-ReactDOM.render(element, document.getElementById("root"));
+// const element = (
+//   <div style={{ fontsize: "15px" }}>Green is the prime color of the world</div>
+// );
+// ReactDOM.render(element, document.getElementById("root"));
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
