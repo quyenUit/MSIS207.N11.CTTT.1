@@ -1,5 +1,5 @@
 import React from "react";
-import ReactDOM from "react-dom/client";
+import ReactDOM from "react-dom";
 // import "./index.css";
 // import App from "./App";
 import reportWebVitals from "./reportWebVitals";
@@ -9,6 +9,7 @@ import MyComponent from "./MyComponent";
 import MyList from "./MyList";
 import App from "./App";
 import MyInput from "./MyInput";
+// import { Button } from "antd";
 
 //– Exercise 0.4
 // const array = ["First", "Second", "Third"];
@@ -20,7 +21,8 @@ import MyInput from "./MyInput";
 // };
 //////////////////////////////////////////////////////////////////////////
 
-const root = ReactDOM.createRoot(document.getElementById("root"));
+// const root = ReactDOM.createRoot(document.getElementById("root"));
+// root.render();
 
 // root
 //   .render(
@@ -164,10 +166,53 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 // root.render(<MyInput />);
 //////////////////////////////////////////////////////////////////////////////////////////////
 
+//Basic React – Exercise 4.1
 // const element = (
-//   <div style={{ fontsize: "15px" }}>Green is the prime color of the world</div>
+//   <div
+//     style={{
+//       textAlign: "center",
+//       backgroundColor: "#d0f0c0",
+//       fontSize: "15px",
+//       border: "1px solid green",
+//     }}
+//   >
+//     Green is the prime color of the world
+//   </div>
 // );
+
 // ReactDOM.render(element, document.getElementById("root"));
+////////////////////////////////////////////////////////////////////////////////////////////////
+
+//Basic React– Exercise 4.2
+// function handleClick() {
+//   alert("Alert!!!");
+// }
+
+// const element = (
+//   <button style={{ margin: "10px 10px" }} type="primary" onClick={handleClick}>
+//     Click me
+//   </button>
+// );
+
+// ReactDOM.render(element, document.getElementById("root"));
+/////////////////////////////////////////////////////////////////////////////////////////////////////
+
+//Basic React– Exercise 4.3
+const smartPeople = [
+  { name: "Johann Goethe", age: 82, IQ: 210 },
+  { name: "Albert Einstein", age: 76, IQ: 205 },
+  { name: "Leonardo da Vinci", age: 67, IQ: 180 },
+  { name: "Isacc Newton", age: 48, IQ: 210 },
+  { name: "Johann asdd", age: 45, IQ: 210 },
+  { name: "hdfashd Goethe", age: 92, IQ: 210 },
+];
+
+const element = (
+  <ul>
+    <li></li>
+  </ul>
+);
+ReactDOM.render(element, document.getElementById("root"));
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
