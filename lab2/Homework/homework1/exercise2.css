@@ -1,0 +1,38 @@
+.title_name {
+  /* display: flex;
+  justify-content: center; */
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  font-size: larger;
+  color: rgb(6, 160, 109);
+}
+
+.paragraph_center {
+  display: flex;
+  margin: 2%;
+  justify-content: center;
+}
+
+#menu ul {
+  background: #0c0c0ce4;
+  width: 120px;
+  padding: 0;
+  list-style-type: none;
+  text-align: center;
+}
+#menu li {
+  width: auto;
+  height: 90px;
+  line-height: 40px;
+  border-bottom: 1px solid #e8e8e8;
+  padding: 0 1em;
+}
+#menu li a {
+  text-decoration: none;
+  color: #ffff;
+  font-weight: bold;
+  display: block;
+}
+#menu li:hover {
+  background: #1cbc96;
+}
